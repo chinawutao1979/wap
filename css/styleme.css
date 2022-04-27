@@ -1,0 +1,62 @@
+h1{
+    color: blue;
+}
+
+h3{
+    color:rgb(53, 187, 97);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+li{
+    font-family: Trebuchet MS; 
+}
+
+body{
+    background-color: rgb(203, 224, 194);
+}
+
+#footer
+{
+    clear: both;
+    border: 1px groove #aaaaaa;
+    background: blue;
+    color: #0e0d0d;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+a{
+    text-decoration:none;
+}
+
+li{
+    text-transform:capitalize;
+}
+.dropcap {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+   
+    color: #bd0f91;
+    float: top;
+    font-size: 1.5rem;
+    
+    
+  }
+
+  div.a {
+    line-height: 20px;
+    color: rgb(201, 107, 20);
+  }
+
+  div.b {
+    line-height: 20px;   
+  }
+
+  ol {
+    display: flex;
+    flex-direction: column-reverse;
+  }
