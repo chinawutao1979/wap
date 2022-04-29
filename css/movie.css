@@ -1,0 +1,67 @@
+body{
+    background-image: url("../images/homework2/background.png");
+}
+h1{
+    font-size:24pt;   
+    font-family: Tahoma;
+    text-shadow: 3px 3px #999999;
+    
+    text-align: center; 
+}
+
+.box {
+    display: inline-block;
+    width: 800px;
+    height: auto;
+    margin-left: 10em;
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+.box1 {
+    display: inline-block;
+    width: 800px;
+    height: 10px;
+    margin-left: 0em;
+    /* border: 2px solid gray; */
+}
+.title1{
+    font-size:48pt;
+    color: red;
+    
+    font-weight: bold;
+    /* background-image: url(../images/homework2/rbg.png); */
+    /* background-repeat: repeat; */
+    /* border: 0em; */
+    /* padding-bottom: 0%; */
+    /* height: auto; */
+    /* width: auto; */
+    margin-top: 0em;
+   
+}
+.box2 {
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+    margin-left: 0em;   
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+
+.box3 {
+    display: inline-block;
+    width: 33%;
+    height: auto;
+    margin-left: 0em;    
+}
+.box4 {
+    display: inline-block;
+    width: 34%;
+    height: auto;
+    margin-left: 0em;   
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+
+.word1{
+    font-size:8pt;
+}
