@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+</head>
+<body>
+    <h1>Retrieve your grade</h1> 
+    <form action="" method="get" novalidate autocomplete="on">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" value="" size="16" /></td>
+            </tr>
+            <tr>
+                <td>Student ID:</td>
+                <td><input type="text" name="id" value="" size="16" /></td>
+            </tr>
+            <tr>
+                <td>assignment:</td>
+                <td>
+                    <select name="assignment">
+                        <option selected>Lab1</option>
+                        <option>Lab2</option>
+                        <option>Lab3</option>
+                        <option>Lab4</option>
+                        <option>Lab5</option>
+                        <option>Lab6</option>
+                    </select>
+               </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="Male" /> Male <input type="radio" name="gender" value="Female" checked /> Female</td>
+            </tr>
+            <tr>
+                <td>Confirm:</td>
+                <td>
+                    <input type="checkbox" name="myself" checked />Myself
+                    <input type="checkbox" name="other" />Other
+                </td>
+            </tr>
+            <tr>
+                <td>Search:</td>
+                <td><input type="submit" style="background-color: rgb(216, 137, 196);" value="Search" /></td>
+            </tr>
+        </table>
+    </form>
+   
+    Get Grade!
+</body>
+</html>

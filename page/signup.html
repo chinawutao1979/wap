@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <img src="../images/logo.png" alt="logo.png">   
+    <form action="signup.php" method="get" novalidate autocomplete="on">
+        <div id="background1"> 
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" value="" size="16" /></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="Male" /> Male <input type="radio" name="gender" value="Female" checked /> Female</td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="text" name="age" value="" size="6" maxlength="2"/></td>
+                </tr>
+                <tr>
+                    <td>Personality type:</td>
+                    <td><input type="text" name="personalityType" value="" size="6" maxlength="4"/>(<a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp"><span style="color:red;">Don't know your type?</span></a>)</td>
+                </tr>
+                <tr>
+                    <td>Favorite OS:</td>
+                    <td>
+                        <select name="favoriteOS">
+                            <option selected>Windows</option>
+                            <option >Mac OS X</option>
+                            <option >Linux</option>
+                        </select>
+                   </td>
+                </tr>
+                <tr>
+                    <td>Seeking age:</td>
+                    <td><input type="text" name="ageFrom" value="" size="6" maxlength="2"/>&nbsp;To&nbsp;<input type="text" name="ageTo" value="" size="6" maxlength="2"/></td>
+                </tr>
+                <tr>
+                    <td>Sign Up:</td>
+                    <td><input type="submit" style="background-color: rgb(216, 137, 196);" value="Sign Up" /></td>
+                </tr>
+
+            </table>            
+        </div>
+    </form>
+    
+</body>
+</html>
