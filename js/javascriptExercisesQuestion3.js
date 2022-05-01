@@ -4,10 +4,10 @@ function doExercisesQ3(){
 }
 
 function booyah1(){
-    alert("BOOYAH!");
+    alert("booyah1_BOOYAH!");
 }
 function booyah2(){    
     setTimeout(function(){
-        alert("BOOYAH!");
+        alert("booyah2_BOOYAH!");
     }, 2000);    
 }
