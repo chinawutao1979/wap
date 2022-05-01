@@ -40,12 +40,14 @@ function doBlink(){
  */
 function convertText(){
     var txt = document.getElementById("textDecorator");
-    var words = txt.value;    
+    var words = txt.value; 
+    words += " ";   
     //let arr= words.split(/\.| |  |   |    ,/); 
     //arr=Array.from(new Set(arr));
     var reg = new RegExp("[A-Za-z]+");     
     var word="";
     var newWords="";
+   
     for (let i = 0; i < words.length; i++) {
         var c = words.charAt(i);
         if(c !=',' && c!='.' && c !=',' && c!=' ' && c!=':' && c!=';' && c!='"'  && c!='<'  && c!='>'  && c!='('  && c!=')'){
@@ -63,10 +65,12 @@ function convertText(){
             }else{
                 newWords +=  word; 
             }
+          
             newWords +=  c+"";
             word = "";
         }
-    }    
+    } 
+    newWords = newWords.substring(0,newWords.length-1);       
     txt.value = newWords;   
 }
 
@@ -75,7 +79,8 @@ function convertText(){
  */
 function doReplace(){
     var txt = document.getElementById("textDecorator");
-    var words = txt.value;    
+    var words = txt.value;  
+    words += " ";   
     var reg = new RegExp("[A-Za-z]+");     
     var word="";
     var newWords="";
@@ -100,6 +105,7 @@ function doReplace(){
             word = "";
         }
     }    
+    newWords = newWords.substring(0,newWords.length-1);   
     txt.value = newWords;
 }
 
