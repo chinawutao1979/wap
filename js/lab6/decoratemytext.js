@@ -1,15 +1,25 @@
 
+
+//alert("Hello, world!");//5:Exercise
+
 function doBiggerDecorator(){
-    //alert("Hello, world!");
+    //alert("Hello, world!");//6:Exercise
+    //jQuery('#textDecorator').css('font-size',24); //7:Exercise
     setInterval(reDoBiggerDecorator,500);      
 }
 
+/**
+ * 11:Exercise
+ */
 function reDoBiggerDecorator(){  
     var txt = jQuery('#textDecorator');    
     var originalFontSize = parseInt(txt.css('font-size'));
     txt.css('font-size',originalFontSize+2);     
 }
 
+/**
+ * 9 and 13:Exercise
+ */
 function doBlink(){    
     var txt = $("#textDecorator");
     var isChecked = document.getElementById("bling1").checked;
@@ -25,6 +35,9 @@ function doBlink(){
    
 }
 
+/**
+ * 12:Exercise
+ */
 function convertText(){
     var txt = document.getElementById("textDecorator");
     var words = txt.value;    
@@ -57,6 +70,9 @@ function convertText(){
     txt.value = newWords;   
 }
 
+/**
+ * 12:Exercise
+ */
 function doReplace(){
     var txt = document.getElementById("textDecorator");
     var words = txt.value;    
@@ -86,6 +102,7 @@ function doReplace(){
     }    
     txt.value = newWords;
 }
+
 
 
   
