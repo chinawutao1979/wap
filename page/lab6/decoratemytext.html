@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Decorator</title>
+		<link href="../../css/lab6/decoratemytext.css" type="text/css" rel="stylesheet" />
+		
+		<!-- link to your script file here -->
+		<script src="../../js/lab6/decoratemytext.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://hovertree.com/ziyuan/jquery/jquery-1.11.3.min.js"></script>
+		<style>
+			blink {
+				color: #2d38be;
+				font-size: 15px;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Text Decorator</h1>
+		
+		<div>
+			<img src="../../images/lab6/decorated.gif" alt="very decorated!" />
+		</div>
+		
+		<!-- Your UI controls go here -->
+		<div>			
+			<div>				
+				<fieldset>
+					<legend>Text</legend>					
+					<textarea id="textDecorator" name="textDecorator" rows="4" cols="30"></textarea>
+				</fieldset>				
+			
+			</div>
+			<br/>
+			<div>
+				<fieldset>
+					<legend>Decoration</legend>
+					<div>
+						<input type="button" value="Bigger Decorations!" onclick="doBiggerDecorator()"/>
+					</div>
+					<div>
+						<input type="checkbox" id="bling1" name="bling1" onchange="doBlink()"/>
+                        <label for="bling1">Bling</label>
+					</div>
+					<div>
+						<input type="button" value="Igpay Atinlay" onclick="convertText()"/>&nbsp;&nbsp;<input type="button" value="Malkovitch" onclick="doReplace()"/>
+					</div>
+					
+				</fieldset>					
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>
