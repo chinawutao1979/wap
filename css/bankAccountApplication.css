@@ -1,0 +1,17 @@
+h1{
+    color:blue;
+    text-align:center;
+}
+div{
+    line-height:25px;
+}
+
+.redDot:after{
+    content: '*';
+    color: red;
+}
+
+dialog{
+    height:50%;
+    width:50%;
+}
