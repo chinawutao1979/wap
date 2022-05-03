@@ -1,0 +1,32 @@
+body{
+    background-color: #CCCCFF;
+}
+h1{
+    text-align: center;
+    font-size: 32pt;   
+    font-weight: bold;
+}
+textarea{
+    width: 90%;
+    height: 400px;  
+    font-size: 12pt;
+    font-weight: bold;  
+}
+button{
+    width: 70px;
+}
+.right{
+    text-align:right;
+}
+.center{
+    text-align: center;
+}
+fieldset {
+    display: inline-block;
+    /* vertical-align: middle; */
+    width:fit-content;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;    
+}
+
