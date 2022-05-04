@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem2</title>
+    <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>    
+</head>
+<body>
+    <div>no ul here </div>
+    <div>
+    This does contain a ul.
+        <ul>
+            <li>the first item</li>
+            <li>the second item</li>
+        </ul>
+    </div>
+    <button id="btn1">Change</button> 
+    <script>
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+            $("div").each(function(){
+                if($(this).find("ul").length > 0){
+                    $(this).css( "color", "blue" );
+                }
+            });
+          });
+        });
+    </script>
+</body>
+</html>
