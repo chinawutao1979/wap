@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem5</title>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        //<!—INSERT YOUR JQUERY CODE HERE	- - >
+        $("span").parent().css("color","green");
+        $("span").parent().parent().css("color","green");
+    });
+    </script>
+        
+</head>
+<body>
+    <div class="ancestors">
+        <div> (great-grandparent)        
+            <ul> (grandparent)        
+                <li> (direct parent)        
+                    <span>some text</span>        
+                </li>        
+            </ul>        
+        </div>        
+    </div>
+        
+</body>
+</html>

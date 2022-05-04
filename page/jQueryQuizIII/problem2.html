@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem2</title>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <ul class="level-1">
+
+        <li class="item-i">I</li>        
+        <li class="item-ii">II        
+            <ul class="level-2">            
+                <li class="item-a">A</li>                
+                <li class="item-b">B            
+                    <ul class="level-3">                
+                        <li class="item-1">1</li>                        
+                        <li class="item-2">2</li>                        
+                        <li class="item-3">3</li>                    
+                    </ul>        
+                </li>        
+                <li class="item-c">C</li>        
+            </ul>        
+        </li>        
+        <li class="item-iii">III</li>
+        
+        </ul>
+        <script>
+        $(document).ready(function(){
+           $(".level-2").css("background-color","red");
+        //    $(".level-2 li").each(function(){
+        //         $(this).find("ul").css("background-color","white");
+        //    });
+        });
+        </script>
+        
+        
+</body>
+</html>
