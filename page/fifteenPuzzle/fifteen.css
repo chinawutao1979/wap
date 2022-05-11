@@ -31,11 +31,6 @@ body, button {
 	color: red;
 }
 
-.movablepiece2 {
-	border-color: red;
-	color: red;
-}
-
 /* grading styles -- for TAs only; not required by students */
 #gradingarea {
 	position: fixed;
