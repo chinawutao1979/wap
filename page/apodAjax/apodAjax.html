@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astronomy Picture of the Day</title>
+    <link rel="stylesheet" type="text/css" href="styleAjax.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="apodAjax.js"></script>
+  </head>
+  <body>
+    <h1>Astronomy Picture Of the Day (AJAX Verson) </h1>
+    <div>
+      <label for="date">Enter date:</label>
+      <input type="date" name="date" id="date"  />      
+      <input type="button" id="view_button" value="View" />
+    </div>
+    <h2 id="title"></h2>
+    <p id="explanation"></p>
+    <div id="imgDiv"><img src="" id="pic" /></div>
+  </body>
+</html>
