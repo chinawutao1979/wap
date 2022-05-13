@@ -2,12 +2,11 @@ $(document).ready(function () {
   $("#view_button").click(getPicture); 
 });
 
-function getPicture() {
-  var myDate = $("#date").val();
+function getPicture() {  
   $.ajax({
     url: "https://api.nasa.gov/planetary/apod",
     type: "GET",
-    data: { api_key: "DEMO_KEY", date: $("#date").val() },
+    data: { api_key: "GE5r6C7fP26s1Ta8sSkFkoJtNrvAdddi4FsCj1wS", date: $("#date").val() },
     dataType: "json",
     success: showPicture,
     error: noPicture,
