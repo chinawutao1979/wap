@@ -1,0 +1,17 @@
+h2,div,h1 {
+  text-align: center;
+}
+p {
+  text-indent: 2em;
+  width: 300;
+}
+
+#view_button{
+  background-color:pink;
+  width: 70px;
+}
+
+h1{
+  color: rgb(13, 139, 13);
+}
+
